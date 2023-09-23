@@ -46,79 +46,99 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      // body: Text(
-      //   "hello kunal",
-      //   style: //atribute
-      //       TextStyle // ka object
-      //           (
-      //               color: Colors.amber //color classs
-      //               ,
-      //               fontSize: 20,
-      //               fontWeight: FontWeight.w200,
-      //               backgroundColor: Colors.brown),
-      // ),
-      // body: TextButton(
-      //   child: Text('dont click here'),
-      //   onPressed: () {
-      //     print(' button is tapped by user');
-      //     onLongPressed:
-      //     () {
-      //       print('LONG PRESSED');
-      //     };
-      //   },
-      // )
-      // body: ElevatedButton(
-      //   child: Text('touch me please'),
-      //   onPressed: () {
-      //     print("someone touched me");
-      //   },
-      // ),
-      // body: Center(
-      //     child: Container(
-      //         width: 100,
-      //         height: 90,
-      //         color: Colors.blueAccent,
-      //         child: Center(
-      //             child: Text(" kunal patil",
-      //                 style: TextStyle(fontSize: 20))))));
-//       body: Column(
-//         children: <Text>[
-//           Text('data'),
-//           Text(
-//             'data',
-//             style: TextStyle(fontSize: 43),
-//           ),
-//           Text('data', style: TextStyle(fontSize: 48)),
-//           Text('data', style: TextStyle(fontSize: 87)),
-//           Text('data', style: TextStyle(fontWeight: 766)),
-//           ElevatedButton(onPressed: () {
-//  print("he pressed me ");
-//           }, child: Text('i m your baap'))
-//         ],
-//       ),
-      // body: Column(
-      //   children: [
-      //     Text('data'),
-      //     Text(
-      //       'data',
-      //       style: TextStyle(fontSize: 43),
-      //     ),
-      //     Text('data', style: TextStyle(fontSize: 48)),
-      //     Text('data',
-      //         style: TextStyle(
-      //             fontSize: 87,
-      //             fontWeight: FontWeight.w200,
-      //             backgroundColor: Color.fromARGB(255, 6, 221, 17))),
-      //     Text('data', style: TextStyle(fontWeight: FontWeight.bold)),
-      //     ElevatedButton(
-      //         onPressed: () {
-      //           print("he pressed me ");
-      //         },
-      //         child: Text('i m your baap'))
-      //   ],
-      // ),
-      //
-/*
+
+      /*
+      body: Text(
+        "hello kunal",
+        style: //atribute
+            TextStyle // ka object
+                (
+                    color: Colors.amber //color classs
+                    ,
+                    fontSize: 20,
+                    fontWeight: FontWeight.w200,
+                    backgroundColor: Colors.brown),
+      ),
+
+
+
+      
+      body: TextButton(
+        child: Text('dont click here'),
+        onPressed: () {
+          print(' button is tapped by user');
+          onLongPressed:
+          () {
+            print('LONG PRESSED');
+          };
+        },
+      )
+
+
+
+      
+      body: ElevatedButton(
+        child: Text('touch me please'),
+        onPressed: () {
+          print("someone touched me");
+        },
+      ),
+      body: Center(
+          child: Container(
+              width: 100,
+              height: 90,
+              color: Colors.blueAccent,
+              child: Center(
+                  child: Text(" kunal patil",
+                      style: TextStyle(fontSize: 20))))));
+
+
+
+                      
+      body: Column(
+        children: <Text>[
+          Text('data'),
+          Text(
+            'data',
+            style: TextStyle(fontSize: 43),
+          ),
+          Text('data', style: TextStyle(fontSize: 48)),
+          Text('data', style: TextStyle(fontSize: 87)),
+          Text('data', style: TextStyle(fontWeight: 766)),
+          ElevatedButton(onPressed: () {
+ print("he pressed me ");
+          }, child: Text('i m your baap'))
+        ],
+      ),
+
+
+
+      
+      body: Column(
+        children: [
+          Text('data'),
+          Text(
+            'data',
+            style: TextStyle(fontSize: 43),
+          ),
+          Text('data', style: TextStyle(fontSize: 48)),
+          Text('data',
+              style: TextStyle(
+                  fontSize: 87,
+                  fontWeight: FontWeight.w200,
+                  backgroundColor: Color.fromARGB(255, 6, 221, 17))),
+          Text('data', style: TextStyle(fontWeight: FontWeight.bold)),
+          ElevatedButton(
+              onPressed: () {
+                print("he pressed me ");
+              },
+              child: Text('i m your baap'))
+        ],
+      ),
+
+
+      
+
 body: Column(
         children: [
           Text('data'),
@@ -140,322 +160,356 @@ body: Column(
               child: Text('i m your baap'))
         ],
       ),
-*/
 
-      //   body: Center(
-      //     child: InkWell(
-      //         //container wrapped in inkwell child
-      //         onDoubleTap: () {
-      //           print("hey frind, im mr robot");
-      //           Text("");
-      //         },
-      //         onHover: (value) => 433,
-      //         child: Container(
-      //           width: 200,
-      //           height: 200,
-      //           color: Colors.brown,
-      //           child: Center(
-      //             child: InkWell(
-      //                 child: Text(
-      //               "press my buttons",
-      //               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-      //             )),
-      //           ),
-      //        )
-      //       ),
-      //  ),
 
-      // body: InkWell(
-      //   child: Container(
-      //       child: ElevatedButton(
-      //     child: Text("hello , i am mr robot"),
-      //     onPressed: () {
-      //       print('you are hacked !!!!');
-      //     },
-      //   )),
-      // )
-      // body: InkWell(
-      //     onDoubleTap: () {
-      //       print("u r hacked ");
-      //     },
-      //     onLongPress: () {
-      //       print("hey bro");
-      //     },
-      //     child: Center(
-      //       child: Container(
-      //         color: Colors.blue,
-      //         height: 100,
-      //         width: 100,
-      //         child: Text("hey friend",
-      //             style: TextStyle(
-      //               fontSize: 21,
-      //               fontWeight: FontWeight.bold,
-      //             )),
-      //       ),
-      //     ))
-      // body: Padding(
-      //     padding: const EdgeInsets.only(bottom: 20),
-      //     child: SingleChildScrollView(
-      //       child: Column(
-      //         children: [
-      //           Container(
-      //               margin: EdgeInsets.only(
-      //                   bottom: 15, left: 15, right: 15, top: 15),
-      //               child: SingleChildScrollView(
-      //                 scrollDirection: Axis.horizontal,
-      //                 child: Row(
-      //                   children: [
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.lightBlueAccent,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.greenAccent,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.green,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.pink,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.redAccent,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.green,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.pink,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.green,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.pink,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.green,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.pink,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.green,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.green,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.pink,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.green,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.pink,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.green,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.pink,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.green,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.pink,
-      //                     ),
-      //                     Container(
-      //                       margin: EdgeInsets.only(
-      //                           bottom: 15, left: 15, right: 15, top: 15),
-      //                       height: 150,
-      //                       width: 150,
-      //                       color: Colors.pink,
-      //                     ),
-      //                   ],
-      //                 ),
-      //               )),
-      //           Container(
-      //               child: SingleChildScrollView(
-      //             scrollDirection: Axis.horizontal,
-      //             child: Row(
-      //               children: [
-      //                 Container(
-      //                   margin: EdgeInsets.only(
-      //                       bottom: 15, left: 15, right: 15, top: 15),
-      //                   height: 150,
-      //                   width: 150,
-      //                   color: Colors.lightBlueAccent,
-      //                 ),
-      //                 Container(
-      //                   margin: EdgeInsets.only(
-      //                       bottom: 15, left: 15, right: 15, top: 15),
-      //                   height: 150,
-      //                   width: 150,
-      //                   color: Colors.greenAccent,
-      //                 ),
-      //                 Container(
-      //                   margin: EdgeInsets.only(
-      //                       bottom: 15, left: 15, right: 15, top: 15),
-      //                   height: 150,
-      //                   width: 150,
-      //                   color: Colors.green,
-      //                 ),
-      //                 Container(
-      //                   margin: EdgeInsets.only(
-      //                       bottom: 15, left: 15, right: 15, top: 15),
-      //                   height: 150,
-      //                   width: 150,
-      //                   color: Colors.pink,
-      //                 ),
-      //                 Container(
-      //                   margin: EdgeInsets.only(
-      //                       bottom: 15, left: 15, right: 15, top: 15),
-      //                   height: 150,
-      //                   width: 150,
-      //                   color: Colors.redAccent,
-      //                 )
-      //               ],
-      //             ),
-      //           )),
-      //           Container(
-      //               child: SingleChildScrollView(
-      //             scrollDirection: Axis.horizontal,
-      //             child: Row(
-      //               children: [
-      //                 Container(
-      //                   margin: EdgeInsets.only(
-      //                       bottom: 15, left: 15, right: 15, top: 15),
-      //                   height: 150,
-      //                   width: 150,
-      //                   color: Colors.lightBlueAccent,
-      //                 ),
-      //                 Container(
-      //                   margin: EdgeInsets.only(
-      //                       bottom: 15, left: 15, right: 15, top: 15),
-      //                   height: 150,
-      //                   width: 150,
-      //                   color: Colors.greenAccent,
-      //                 ),
-      //                 Container(
-      //                   margin: EdgeInsets.only(
-      //                       bottom: 15, left: 15, right: 15, top: 15),
-      //                   height: 150,
-      //                   width: 150,
-      //                   color: Colors.green,
-      //                 ),
-      //                 Container(
-      //                   margin: EdgeInsets.only(
-      //                       bottom: 15, left: 15, right: 15, top: 15),
-      //                   height: 150,
-      //                   width: 150,
-      //                   color: Colors.pink,
-      //                 ),
-      //                 Container(
-      //                   margin: EdgeInsets.only(
-      //                       bottom: 15, left: 15, right: 15, top: 15),
-      //                   height: 150,
-      //                   width: 150,
-      //                   color: Colors.redAccent,
-      //                 )
-      //               ],
-      //             ),
-      //           )),
-      //           Container(
-      //             margin: EdgeInsets.only(
-      //                 bottom: 15, left: 15, right: 15, top: 15),
 
-      //           ),
-      //           Container(
-      //             margin: EdgeInsets.only(
-      //                 bottom: 15, left: 15, right: 15, top: 15),
-      //             height: 150,
-      //             width: 150,
-      //             color: Colors.redAccent,
-      //           )
-      //         ],
-      //       ),
-      //     ))
+
+        body: Center(
+          child: InkWell(
+              //container wrapped in inkwell child
+              onDoubleTap: () {
+                print("hey frind, im mr robot");
+                Text("");
+              },
+              onHover: (value) => 433,
+              child: Container(
+                width: 200,
+                height: 200,
+                color: Colors.brown,
+                child: Center(
+                  child: InkWell(
+                      child: Text(
+                    "press my buttons",
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  )),
+                ),
+             )
+            ),
+       ),
+
+
+
+
+
+      body: InkWell(
+        child: Container(
+            child: ElevatedButton(
+          child: Text("hello , i am mr robot"),
+          onPressed: () {
+            print('you are hacked !!!!');
+          },
+        )),
+      )
+
+
+
+      
+      body: InkWell(
+          onDoubleTap: () {
+            print("u r hacked ");
+          },
+          onLongPress: () {
+            print("hey bro");
+          },
+          child: Center(
+            child: Container(
+              color: Colors.blue,
+              height: 100,
+              width: 100,
+              child: Text("hey friend",
+                  style: TextStyle(
+                    fontSize: 21,
+                    fontWeight: FontWeight.bold,
+                  )),
+            ),
+          ))
+
+
+
+          
+      body: Padding(
+          padding: const EdgeInsets.only(bottom: 20),
+          child: SingleChildScrollView(
+            child: Column(
+              children: [
+                Container(
+                    margin: EdgeInsets.only(
+                        bottom: 15, left: 15, right: 15, top: 15),
+                    child: SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child: Row(
+                        children: [
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.lightBlueAccent,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.greenAccent,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.green,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.pink,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.redAccent,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.green,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.pink,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.green,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.pink,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.green,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.pink,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.green,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.green,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.pink,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.green,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.pink,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.green,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.pink,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.green,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.pink,
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                bottom: 15, left: 15, right: 15, top: 15),
+                            height: 150,
+                            width: 150,
+                            color: Colors.pink,
+                          ),
+                        ],
+                      ),
+                    )),
+
+
+
+
+                    
+                Container(
+                    child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: [
+                      Container(
+                        margin: EdgeInsets.only(
+                            bottom: 15, left: 15, right: 15, top: 15),
+                        height: 150,
+                        width: 150,
+                        color: Colors.lightBlueAccent,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(
+                            bottom: 15, left: 15, right: 15, top: 15),
+                        height: 150,
+                        width: 150,
+                        color: Colors.greenAccent,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(
+                            bottom: 15, left: 15, right: 15, top: 15),
+                        height: 150,
+                        width: 150,
+                        color: Colors.green,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(
+                            bottom: 15, left: 15, right: 15, top: 15),
+                        height: 150,
+                        width: 150,
+                        color: Colors.pink,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(
+                            bottom: 15, left: 15, right: 15, top: 15),
+                        height: 150,
+                        width: 150,
+                        color: Colors.redAccent,
+                      )
+                    ],
+                  ),
+                )),
+
+
+
+
+                
+                Container(
+                    child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: [
+                      Container(
+                        margin: EdgeInsets.only(
+                            bottom: 15, left: 15, right: 15, top: 15),
+                        height: 150,
+                        width: 150,
+                        color: Colors.lightBlueAccent,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(
+                            bottom: 15, left: 15, right: 15, top: 15),
+                        height: 150,
+                        width: 150,
+                        color: Colors.greenAccent,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(
+                            bottom: 15, left: 15, right: 15, top: 15),
+                        height: 150,
+                        width: 150,
+                        color: Colors.green,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(
+                            bottom: 15, left: 15, right: 15, top: 15),
+                        height: 150,
+                        width: 150,
+                        color: Colors.pink,
+                      ),
+                      Container(
+                        margin: EdgeInsets.only(
+                            bottom: 15, left: 15, right: 15, top: 15),
+                        height: 150,
+                        width: 150,
+                        color: Colors.redAccent,
+                      )
+                    ],
+                  ),
+                )),
+
+
+
+
+                
+                Container(
+                  margin: EdgeInsets.only(
+                      bottom: 15, left: 15, right: 15, top: 15),
+
+                ),
+                Container(
+                  margin: EdgeInsets.only(
+                      bottom: 15, left: 15, right: 15, top: 15),
+                  height: 150,
+                  width: 150,
+                  color: Colors.redAccent,
+                )
+              ],
+            ),
+          ))
+
+
+
+
+
 
       body: ListView(
         children: [
@@ -474,3 +528,4 @@ body: Column(
     );
   }
 }
+*/
