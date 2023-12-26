@@ -1,0 +1,8 @@
+name: fullstack_task_app_flutter
+
+packages:
+  - packages/*
+
+scripts:
+  analyze:
+    exec: dart analyze .
