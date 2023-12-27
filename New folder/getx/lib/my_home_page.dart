@@ -1,5 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:getx/content_page.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
@@ -29,18 +32,19 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
           Positioned(
-              bottom: 0,
-              left: 20,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    "Pick Your Favourite",
-                    style: TextStyle(
-                        fontSize: 32,
-                        color: Colors.white,
-                        fontWeight: FontWeight.w600),
-                  ),
+            bottom: 0,
+            left: 20,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  "Unleash Brilliance:\nYour Favorite Contests Await!",
+                  style: TextStyle(
+                      fontSize: 28,
+                      color: const Color.fromARGB(255, 85, 1, 1),
+                      fontWeight: FontWeight.w700),
+                ),
+                /*
                   Text(
                     "Contests",
                     style: TextStyle(
@@ -48,20 +52,26 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.white,
                         fontWeight: FontWeight.w600),
                   ),
-                  SizedBox(
-                    height: 40,
-                  ),
-                  SizedBox(
-                      width: MediaQuery.of(context).size.width - 25,
-                      child: Text(
-                        "We make great design work "
-                        "happen with our great community designer",
-                        style: TextStyle(color: Colors.white60),
-                      )),
-                  SizedBox(
-                    height: 40,
-                  ),
-                  Container(
+                  */
+                SizedBox(
+                  height: 40,
+                ),
+                SizedBox(
+                    width: MediaQuery.of(context).size.width - 25,
+                    child: Text(
+                      "Unleash your coding prowess and pave the way to victory! \n"
+                      "Participate in our coding contests, where challenges meet innovation",
+                      style: TextStyle(
+                          color: Color.fromARGB(255, 20, 0, 52),
+                          fontWeight: FontWeight.w500,
+                          fontSize: 18),
+                    )),
+                SizedBox(
+                  height: 20,
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
+                  child: Container(
                     width: 200,
                     height: 70,
                     decoration: BoxDecoration(
@@ -75,18 +85,35 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(30.0),
                         ),
                       ),
-                      onPressed: () => Container(),
-                      child: Text(
-                        "Get started",
-                        style: TextStyle(color: Colors.white),
+                      onPressed: () => Get.to(() => ContentPage()),
+                      child: RichText(
+                        text: TextSpan(
+                          text: 'Get started',
+                          style: TextStyle(
+                            color: const Color.fromARGB(255, 255, 0, 0),
+                            fontSize: 25,
+                            fontWeight: FontWeight.w800,
+                          ),
+                          children: [
+                            TextSpan(
+                              text: '\n Tu Phodega...',
+                              style: TextStyle(
+                                  color: Colors.black,
+                                  fontWeight: FontWeight.w700,
+                                  fontSize: 13,
+                                  decoration: TextDecoration.none),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
-                  SizedBox(
-                    height: 70,
-                  ),
-                ],
-              ))
+                ),
+              ],
+            ),
+
+            //Container()
+          )
         ],
       ),
     );
